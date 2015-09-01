@@ -1,1 +1,3 @@
-# address_book_sails
+# address_app
+
+a [Sails](http://sailsjs.org) application
