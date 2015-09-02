@@ -34,7 +34,9 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  'post /person/:id/category' : 'CategoryController.plus'
 
   /***************************************************************************
   *                                                                          *
