@@ -46,7 +46,8 @@ module.exports = {
       required:true
     },
     person:{
-      model:'Person'
+      model:'Person',
+      defaultsTo: null
     }
   }
 

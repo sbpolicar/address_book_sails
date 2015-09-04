@@ -24,7 +24,14 @@ addressApp.config(['$routeProvider','$locationProvider','sailsResourceProvider',
     templateUrl:'/views/newPerson.html',
     controller:'NewPersonCtrl'
   })
-
+  .when('/person/:id',{
+    templateUrl:'/views/person/show.html',
+    controller:'PersonShowCtrl'
+  })
+  .when('/person/:person_id/contact', {
+    templateUrl:'/views/contact/new.html',
+    controller:'ContactNewCtrl'
+  })
   .otherwise({
     templateUrl:'/views/404.html'
   })

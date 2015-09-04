@@ -1,4 +1,4 @@
-addressApp.controller('HomeCtrl', ['$scope','$modal', '$rootScope', 'Person', function($scope, $modal, $rootScope, Person){
+addressApp.controller('HomeCtrl', ['$scope','$modal', 'Person', function($scope, $modal, Person){
   console.log('HomeCtrl init')
 
   $scope.person = []
